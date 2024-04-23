@@ -31,6 +31,7 @@ hr{
     color: #DDDDFF;
     font-weight: bold;
     font-size: 1.2rem;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
 .movies-logo:hover{
     text-decoration: none;
@@ -51,6 +52,7 @@ hr{
 }
 .nav-list li:hover{
     color: #DDDDFF;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
 
 .main-section{
@@ -165,4 +167,43 @@ hr{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+.movies-acclaimed{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+.button-sgn-up:hover, .search-button:hover{
+    background-color: #910059;
+}
+.movie:hover{
+    outline: solid 3px #DD0088;
+}
+.footer{
+    background-color: #DD0088;
+    color:#fff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.footer-nav-list-item{
+    margin-left: 20px;
+}
+.link-nav{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.link-nav:hover{
+    color: #DDDDFF;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
